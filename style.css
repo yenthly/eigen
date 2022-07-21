@@ -1,0 +1,157 @@
+html{
+    margin: none;
+    padding: none;
+}
+
+h3{
+    font-family: stolzl, sans-serif;
+    font-weight: 200;
+    font-size: 2.5em;
+}
+
+h2{
+    font-family: stolzl, sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+h1{
+    margin: 0.1em;
+    font-family: stolzl, sans-serif;
+    font-weight: 700;
+    font-size: 3.5em;
+}
+
+p{
+    color: #161616;
+    font-family: stolzl, sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+}
+
+.jumbo{
+    padding-top: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jumbo p{
+    color: #161616;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.past{
+    margin: 0;
+    padding: non;
+    background-color: #161616;
+}
+
+.past h3, h1, h2, p{
+    color: white;
+}
+
+.past h2, h1, h3{
+    margin: 0;
+}
+
+.containerPast{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.pastContent{
+    height: auto;
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.pastContent3{
+    height: auto;
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.past-msg{
+    height: auto;
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.pastContent video{
+    width: 100%;
+}
+
+.containerPastText{
+    padding-right: 10%;
+    padding-left: 5%;
+    padding-top: 5%;
+    width: 50%;
+}
+
+.containerPastText2{
+    padding-right: 5%;
+    padding-left: 10%;
+    padding-top: 5%;
+    width: 50%;
+}
+
+.containerPastText3{
+    padding-right: 10%;
+    padding-left: 5%;
+    padding-top: 5%;
+    width: 50%;
+    padding-bottom: 5%;
+}
+
+.pastContent2{
+    height: auto;
+    width: 50%;
+    padding-right: 10%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.pastContent2 video{
+    width: 100%;
+}
+
+.pastContent3 video{
+    width: 100%;
+}
+
+.services h1{
+    color:#161616;
+    height: auto;
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.service-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.service-icons img{
+    
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.service-icons-container{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
