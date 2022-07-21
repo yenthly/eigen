@@ -5,14 +5,6 @@
     box-sizing: border-box;
     background-color: #161616;
 }
-.block{
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    position: sticky;
-    
-    
-}
 
 h3{
     font-family: stolzl, sans-serif;
@@ -34,7 +26,7 @@ h1{
 }
 
 p{
-    color: #fff;
+    color: #161616;
     font-family: stolzl, sans-serif;
     font-weight: 100;
     font-size: 2em;
@@ -55,7 +47,7 @@ p{
 
 .past{
     margin: 0;
-    padding: non;
+    padding: 0;
     background-color: #161616;
 }
 
@@ -68,9 +60,17 @@ p{
 }
 
 .containerPast{
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-evenly;
+}
 
+.containerPast2{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 .pastContent{
     height: auto;
@@ -165,4 +165,115 @@ p{
     display: flex;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.icon1:hover {
+    transform: scale(1.2);
+}
+
+.icon2:hover {
+    transform: scale(1.2);
+}
+
+.icon3:hover {
+    transform: scale(1.2);
+}
+
+
+@media (max-width:  576px){
+
+    p{
+        font-size: 1em;
+        padding-bottom: 5%;
+    }
+    .containerPast{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .containerPast2{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+    }
+
+    .pastContent{
+        height: auto;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .pastContent2{
+        height: auto;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .pastContent3{
+        height: auto;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .pastContent video{
+        width: 100%;
+        height: auto;
+    }
+
+    .containerPastText{
+        width: 100%;
+        padding: 5%;
+
+
+    }
+
+    .containerPastText2{
+        width: 100%;
+        padding: 5%;
+    }
+
+    .containerPastText3{
+        width: 100%;
+        padding: 5%;
+        padding-bottom: 10%;
+
+    }
+
+
+    .service-icons-container{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
+    .service-icons{
+        padding: 0%;
+    }
+
+    .service-icons h1{
+        padding-bottom: 5%;
+    }
+    .service-icons img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: auto;
+    }
+
+
 }
